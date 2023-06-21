@@ -20,7 +20,7 @@ body {
     border-radius: 25px;
     padding: 20px;
     width: 95%;
-    max-width: 450px;
+    max-width: 420px;
 }
 
 .input-cidade {
@@ -31,7 +31,7 @@ body {
     font-size: 20px;
     background-color: #7c7c7c2b;
     color: #ffffff;
-    width: calc();
+    width: calc(100% - 100px);
 }
 
 .botao-busca {
@@ -40,7 +40,12 @@ body {
     padding: 10px;
     border-radius: 50px;
     background-color: #7c7c7c2b;
+    float: right;
     cursor: pointer;
+}
+
+.botao-busca:hover {
+    background-color: #7c7c7c6b;
 }
 
 .img-busca {
@@ -74,7 +79,13 @@ body {
     margin-left: 20px;
 }
 
+.descricao {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
 .umidade {
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 30px;
 }
